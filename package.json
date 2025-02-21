@@ -1,0 +1,30 @@
+{
+  "name": "forcasting",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/compression": "^1.7.5",
+    "concurrently": "^9.0.1",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "private": "true",
+  "scripts": {
+    "prepare": "husky",
+    "dev": "concurrently --kill-others 'bun --filter frontend dev' 'bun --filter backend start:dev'",
+    "build": "bun --filter '*' build",
+    "start": "cd backend && npm run start:prod"
+  },
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}

@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.10.1)
+  - Highcharts (11.1.0)
+  - LookinServer/Core (1.2.8)
+  - LookinServer/Swift (1.2.8):
+    - LookinServer/Core
+  - SwiftSpinner (2.2.0)
+  - SwiftyJSON (4.3.0)
+  - Toast-Swift (5.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Highcharts (~> 11.1.0)
+  - LookinServer/Swift
+  - SwiftSpinner
+  - SwiftyJSON (~> 4.0)
+  - Toast-Swift (~> 5.1.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Highcharts
+    - LookinServer
+    - SwiftSpinner
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
+  Highcharts: ebe8a98b9af3c1f653068fbfb49c71e389860547
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  SwiftSpinner: f9b59477fe107427f2b5b835497d6636fa167ede
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
+
+PODFILE CHECKSUM: 3ced14b7bf7939958efe70b5cc3f9bde76b5b3de
+
+COCOAPODS: 1.16.2
